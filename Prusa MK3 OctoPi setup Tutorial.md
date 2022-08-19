@@ -17,37 +17,30 @@ This tutorial will walk through the process of turning your printer into a wirel
 
 ## Steps:
 > ### Step 1 (Print Needed Parts):
-
->> [Download](https://github.com/amrodewedar/3D-printing/blob/main/OctoPi_Full.3mf) the file for the Raspberry Pi enclosure, camera enclosure, and camera arm.<br/>
->> Make sure the enclosures and arm will fit your equipment before wasting precious fillament.<br/>
->> Slice and print the parts according to your prefrences (links in the resources section contains the thingiverse parts).
-
-
-![Printed Parts]()
-
+>>> [Download](https://github.com/amrodewedar/3D-printing/blob/main/OctoPi_Full.3mf) the file for the Raspberry Pi enclosure, camera enclosure, and camera arm.<br/>
+>>> Make sure the enclosures and arm will fit your equipment before wasting precious fillament.<br/>
+>>> Slice and print the parts according to your prefrences (links in the resources section contains the thingiverse parts).
+>>> 
+>>> ![Printed Parts](images/All_parts_to_print.png)
+>>>
+>>> .
 > ### Step 2 (Assemble Parts):
-
->> blah
-
+>>> blah
 > ### Step 3 (Installing Raspberry Pi Imager):
-
->> First, [download](https://www.raspberrypi.com/software/) and install the Raspberry Pi imager.
->> You should see the following after installing the imager and opening it:
->> 
->> ![imager installed](images/imager_after_installation.png)
-
+>>> First, [download](https://www.raspberrypi.com/software/) and install the Raspberry Pi imager.
+>>> You should see the following after installing the imager and opening it:
+>>> 
+>>> ![imager installed](images/imager_after_installation.png)
+>>> 
+>>> .
 > ### Step 4 (Install OctoPi Operating System on the Micro SD-Card):
-
->> blah long step
-
-
+>>> blah long step
 > ### Step 5 (Connect to OctoPi and Setup):
-
->> blah blah 
-
+>>> blah blah 
 > ### Step 6 (Add Plugins):
-
->> blah blah
+>>> blah blah
+>>
+>>
 
 ## Resources:
 
