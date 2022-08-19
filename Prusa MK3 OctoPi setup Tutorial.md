@@ -50,8 +50,8 @@ This tutorial will walk through the process of turning your printer into a wirel
 > [^Cable]: [USB A/B cable](https://www.amazon.com/gp/product/B000067RMY/ref=crt_ewc_title_oth_3?ie=UTF8&psc=1&smid=ATVPDKIKX0DER)
 > [^Screws]: [Box of M3 screws of various lengths](https://www.amazon.com/binifiMux-360pcs-Countersunk-Phillips-Machine/dp/B08N5XDHMW/ref=sr_1_5?crid=3LE01UJH45QOO&keywords=M3+x+16+and+M3+x+12+screws&qid=1660322970&s=industrial&sprefix=m3+x+16+and+m3+x+12+screws%2Cindustrial%2C72&sr=1-5)
 > [^Imager]: [Website to download Raspberry Pi Imager](https://www.raspberrypi.com/software/)
-> [^OctoVid]: 
-> [^CameraVid]: 
-> [^MainCase]: 
-> [^CameraCase]: 
-> [^ExtVis]:
+> [^OctoVid]: [Video tutorial of OctoPi and plugins installation](https://www.youtube.com/watch?v=HBd0olxI-No)
+> [^CameraVid]: [Video tutorial of camera and arm installation](https://www.youtube.com/watch?v=iFhVSmMzOLg&t=960s)
+> [^MainCase]: [Raspberry Pi case model](https://www.thingiverse.com/thing:3004038)
+> [^CameraCase]: [Camera case and arm model](https://www.thingiverse.com/thing:4631375/files)
+> [^ExtVis]: [Pimp your printer with extruder visualizers](https://www.thingiverse.com/search?q=prusa+extruder+visualizer&page=1&type=things&sort=relevant)
