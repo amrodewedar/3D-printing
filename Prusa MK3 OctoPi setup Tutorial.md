@@ -4,11 +4,13 @@ This tutorial will walk through the process of turning your printer into a wirel
 
 ### Technical Requirements:
 
-- Raspberry Pi model 3B(you can use other versions of the Raspberry Pi with modifications for the case).[^RaspberryPi]
-- 32 or 64 GB Micro SD-Card (this tutorial uses 64 GB).[^SD-Card]
-- Camera module with at least 1m long flex ribbon cable.[^Camera]
-- USB type-A to USB type-B cable.[^Cable]
-- M3 x 12mm/16mm/20mm screws.[^Screws]
+#### Links can be found in the resources section at the end of the article
+
+- Raspberry Pi model 3B(you can use other versions of the Raspberry Pi with modifications for the case).
+- 32 or 64 GB Micro SD-Card (this tutorial uses 64 GB).
+- Camera module with at least 1m long flex ribbon cable.
+- USB type-A to USB type-B cable.
+- M3 x 12mm/16mm/20mm screws.
 - Computer or laptop.
 - 3D printer (this tutorial uses a Prusa MK3S).
 - Access to your router.
@@ -16,9 +18,11 @@ This tutorial will walk through the process of turning your printer into a wirel
 ## Steps:
 > ### Step 1 (Print Needed Parts):
 
->> [Download](https://github.com/amrodewedar/3D-printing/blob/main/OctoPi_Full.3mf) the file for the Raspberry Pi enclosure, camera enclosure, and camera arm.
->>> Make sure the enclosures and arm will fit your equipment.
->> Slice and print the parts according to your prefrences (links in the resources section contains the thingiverse parts).[^Resources] 
+>> [Download](https://github.com/amrodewedar/3D-printing/blob/main/OctoPi_Full.3mf) the file for the Raspberry Pi enclosure, camera enclosure, and camera arm.<br/>
+>> Make sure the enclosures and arm will fit your equipment before wasting precious fillament.<br/>
+>> Slice and print the parts according to your prefrences (links in the resources section contains the thingiverse parts).
+
+
 ![Printed Parts]()
 
 > ### Step 2 (Assemble Parts):
