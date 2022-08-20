@@ -14,33 +14,52 @@ This tutorial will walk through the process of turning your printer into a wirel
 - Computer or laptop.
 - 3D printer (this tutorial uses a Prusa MK3S).
 - Access to your router.
+> #### Everything you will need:
+> 
+> ![Everything you need](images/Everything_Needed.png)
 
 ## Steps:
 > ### Step 1 (Print Needed Parts):
->>> [Download](https://github.com/amrodewedar/3D-printing/blob/main/OctoPi_Full.3mf) the file for the Raspberry Pi enclosure, camera enclosure, and camera arm.<br/>
->>> Make sure the enclosures and arm will fit your equipment before wasting precious fillament.<br/>
->>> Slice and print the parts according to your prefrences (links in the resources section contain the thingiverse 3D design model parts).
->>> 
->>> ![Printed Parts](images/All_parts_to_print.png)
->>>
->>> .
+>> - [Download](https://github.com/amrodewedar/3D-printing/blob/main/OctoPi_Full.3mf) the file for the Raspberry Pi enclosure, camera enclosure, and camera arm.<br/>
+>> - Make sure the enclosures and arm will fit your equipment before wasting precious fillament.<br/>
+>> - Slice and print the parts according to your prefrences (links in the resources section contain the thingiverse 3D design model parts).
+>> - Depending on your camera position prefrence, you might want to print more links. With 5 links, the camera can be positioned in-front of the print bed. Keep in mind the more links you print the shakier the camera will be.
+>> 
+>> ![Printed Parts](images/All_parts_to_print.png)
+>>
+>> .
 > ### Step 2 (Assemble Parts):
->>> blah
+>> - Start by assembling the joints together using nuts and M3x20mm screws.
+>> - The joints have designated holes for the screws and nuts, so make sure you are inserting them in the correct holes.
+>> 
+>> ![Linking the joints](images/Joints_screws_with_circles.png)
+>>
+>> - Next connect the arm mount to the rest of the links as such:
+>> 
+>> ![Arm with mount connected](images/Joints_and_arm_mount_close_up.png)
+>> 
+>> - Ensure that the last link (the one that will hold the camera enclosure) has the flat side up as shown in the picture above.
+>> - Now connect the camera enclosure holder and camera enclosure to the rest of the assembly.
+>> 
+>> ![Joins with mount and camera enclosure](images/Joints_camera_and_arm_mount.png)
+>> 
+>> - The camera enclosure holder also has a nut hole but it is more difficult to place the nut in there, I used the hex-key that comes with the Prusa printer to put the nut in place. Also for the camera enclosure you can use a M3x16mm or ideally a M3x14mm.
+>> 
 > ### Step 3 (Installing Raspberry Pi Imager):
->>> First, [download](https://www.raspberrypi.com/software/) and install the Raspberry Pi imager.
->>> You should see the following after installing the imager and opening it:
->>> 
->>> ![imager installed](images/imager_after_installation.png)
->>> 
->>> .
+>> First, [download](https://www.raspberrypi.com/software/) and install the Raspberry Pi imager.
+>> You should see the following after installing the imager and opening it:
+>> 
+>> ![imager installed](images/imager_after_installation.png)
+>> 
+>> .
 > ### Step 4 (Install OctoPi Operating System on the Micro SD-Card):
->>> blah long step
+>> blah long step
 > ### Step 5 (Connect to OctoPi and Setup):
->>> blah blah 
+>> blah blah 
 > ### Step 6 (Add Plugins):
->>> blah blah
->>
->>
+>> blah blah
+>
+>
 
 ## Resources:
 
