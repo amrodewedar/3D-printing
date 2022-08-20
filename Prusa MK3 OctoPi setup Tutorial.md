@@ -19,7 +19,7 @@ This tutorial will walk through the process of turning your printer into a wirel
 > ### Step 1 (Print Needed Parts):
 >>> [Download](https://github.com/amrodewedar/3D-printing/blob/main/OctoPi_Full.3mf) the file for the Raspberry Pi enclosure, camera enclosure, and camera arm.<br/>
 >>> Make sure the enclosures and arm will fit your equipment before wasting precious fillament.<br/>
->>> Slice and print the parts according to your prefrences (links in the resources section contains the thingiverse parts).
+>>> Slice and print the parts according to your prefrences (links in the resources section contain the thingiverse 3D design model parts).
 >>> 
 >>> ![Printed Parts](images/All_parts_to_print.png)
 >>>
