@@ -28,7 +28,7 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> ![Printed Parts](images/All_parts_to_print.png)
 >>
 >> .
-> ### Step 2 (Assemble Parts):
+> ### Step 2 (Arm & Camera Mount Assembly):
 >> - Start by assembling the joints together using nuts and M3x20mm screws.
 >> - The joints have designated holes for the screws and nuts, so make sure you are inserting them in the correct holes.
 >> 
@@ -43,8 +43,14 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> 
 >> ![Joins with mount and camera enclosure](images/Joints_camera_and_arm_mount.png)
 >> 
->> - The camera enclosure holder also has a nut hole but it is more difficult to place the nut in there, I used the hex-key that comes with the Prusa printer to put the nut in place. Also for the camera enclosure you can use a M3x16mm or ideally a M3x14mm.
+>> - The camera enclosure holder also has a nut hole but it is more difficult to place the nut in there, I used the hex-key that comes with the Prusa printer to put the nut in place. Also for the camera enclosure you can use a M3x16mm screw or ideally a M3x14mm screw.
+>> - Now you can mount the arm to the Z-axis motor of the printer using a M3x20mm screw:
 >> 
+>> ![Mount to Z-axis](images/jont_mount_screw.png) 
+>>
+>> Lastly zip-tie the Z-axis motor cable to the mount as such(disregard the ribbon cable for now): 
+>> ![Zip-tie the cable](images/joint_mounted_ziptie_circled.png)
+>>
 > ### Step 3 (Installing Raspberry Pi Imager):
 >> First, [download](https://www.raspberrypi.com/software/) and install the Raspberry Pi imager.
 >> You should see the following after installing the imager and opening it:
@@ -52,6 +58,7 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> ![imager installed](images/imager_after_installation.png)
 >> 
 >> .
+>> 
 > ### Step 4 (Install OctoPi Operating System on the Micro SD-Card):
 >> blah long step
 > ### Step 5 (Connect to OctoPi and Setup):
