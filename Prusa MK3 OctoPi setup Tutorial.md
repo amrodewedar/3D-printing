@@ -16,8 +16,7 @@ This tutorial will walk through the process of turning your printer into a wirel
 - Access to your router.
 > #### Everything you will need:
 > 
-> ![Everything you need](images/Everything_Needed.png)
-
+> <img src="images/Everything_Needed.png" alt="Everything you will need" width="750"/>
 ## Steps:
 > ### Step 1 (Print Needed Parts):
 >> - [Download](https://github.com/amrodewedar/3D-printing/blob/main/OctoPi_Full.3mf) the file for the Raspberry Pi enclosure, camera enclosure, and camera arm.<br/>
@@ -25,7 +24,7 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> - Slice and print the parts according to your prefrences (links in the resources section contain the thingiverse 3D design model parts).
 >> - Depending on your camera position prefrence, you might want to print more links. With 5 links, the camera can be positioned in-front of the print bed. Keep in mind the more links you print the shakier the camera will be.
 >> 
->> ![Printed Parts](images/All_parts_to_print.png)
+>> <img src="images/All_parts_to_print.png" alt="Parts to print" width="750"/>
 >>
 >> .
 > ### Step 2 (Arm & Camera Mount Assembly):
@@ -49,9 +48,19 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> ![Mount to Z-axis](images/jont_mount_screw.png) 
 >>
 >> Lastly zip-tie the Z-axis motor cable to the mount as such(disregard the ribbon cable for now): 
+>> 
 >> ![Zip-tie the cable](images/joint_mounted_ziptie_circled.png)
 >>
-> ### Step 3 (Installing Raspberry Pi Imager):
+> ### Step 3 (Raspberry Pi Assembly & Mount):
+>> - First, place the heatsinks on the Processor and the LAN chips: 
+>> 
+>> ![heatsinks placement](images/Heat_Sinks_on_Pi.png)
+>> 
+>> - Place Pi in Case, and connect the ribbon cable to the camera port so the contacts of the cable are touching the contacts of the Pi port:
+>> 
+>> ![Ribbon cable to Pi](images/Ribbon_cable_into_pi.png) <img src="images/Ribbon_cable_into_pi_closeup.png" alt="Ribbon Cable to Pi Closeup" width="500"/> 
+>>
+> ### Step 4 (Installing Raspberry Pi Imager):
 >> First, [download](https://www.raspberrypi.com/software/) and install the Raspberry Pi imager.
 >> You should see the following after installing the imager and opening it:
 >> 
