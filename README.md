@@ -116,7 +116,19 @@ This tutorial is a detailed walkthrough the process of turning your printer into
 >> <p align="center"> <img src="images/plugin_sd.png" alt="Plugging in SD-Card" width="450" height="450"/> </p>
 >> 
 > ### Step 5 (Connecting to OctoPi and Setup):
+>> - There are two options to connect to the Pi.
 >> 
+>>> #### 1. Using Through Hostname:
+>>>> + First try to connect to the Pi through the hostname you set earlier. Type the hostname into your search bar (ex.: Octopi.local).
+>>>> + I didn't have luck with this method. If you are in the same boat, move on the to option 2.
+>>>> 
+>>> #### 2. Using Through IP-Address: 
+>>>> + Access your router by typing <code> https://192.168.1.1/#/login </code> into your search bar. This should take you to your router login. If your network is setup in a specific way, try to gain access to your router settings page.
+>>>> + In your router settings, you should be able to find a list of devices connected to the router and you will find the octopi connected with some name.
+>>>> + Note that IP-address (bookmarking it wouldn't be a bad idea). 
+>>>> What it looked like on my router settings:
+>>>> 
+>>>> <p align="center"> <img src="images/" alt="" width=""/> </p>
 > ### Step 6 (Additional Actions):
 >> 
 >
