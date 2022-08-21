@@ -124,11 +124,13 @@ This tutorial is a detailed walkthrough the process of turning your printer into
 >>>> 
 >>> #### 2. Using Through IP-Address: 
 >>>> + Access your router by typing <code> https://192.168.1.1/#/login </code> into your search bar. This should take you to your router login. If your network is setup in a specific way, try to gain access to your router settings page.
->>>> + In your router settings, you should be able to find a list of devices connected to the router and you will find the octopi connected with some name.
+>>>> + In your router settings, you should be able to find a list of devices connected to the router and you will find the octopi connected with some (hopefully) obvious name.
 >>>> + Note that IP-address (bookmarking it wouldn't be a bad idea). 
 >>>> What it looked like on my router settings:
 >>>> 
->>>> <p align="center"> <img src="images/" alt="" width=""/> </p>
+>>>> <p align="center"> <img src="images/OctoPi_IP_address.pn" alt="Router settings" width=""/> </p>
+>>
+>>
 > ### Step 6 (Additional Actions):
 >> 
 >
