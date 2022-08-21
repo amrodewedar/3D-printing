@@ -128,7 +128,7 @@ This tutorial is a detailed walkthrough the process of turning your printer into
 >>>> + Note that IP-address (bookmarking it wouldn't be a bad idea). 
 >>>> What it looked like on my router settings:
 >>>> 
->>>> <p align="center"> <img src="images/OctoPi_IP_address.pn" alt="Router settings" width=""/> </p>
+>>>> <p align="center"> <img src="images/OctoPi_IP_address.png" alt="Router settings" width=""/> </p>
 >>
 >>
 > ### Step 6 (Additional Actions):
