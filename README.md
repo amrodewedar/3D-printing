@@ -18,7 +18,7 @@ This tutorial will walk through the process of turning your printer into a wirel
 - Access to your router.
 > #### Everything you will need:
 > 
-> <p align="center"> <img src="images/Everything_Needed.png" alt="Everything you will need" width="900"/> </p>
+> <p align="center"> <img src="images/Everything_Needed.png" alt="Everything you will need" width="750"/> </p>
 >
 ## Steps:
 > ### Step 1 (Print Needed Parts):
@@ -61,7 +61,7 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> 
 >> - Place Pi in Case, releae the cable lock on the camera port by gently pulling on both sides of the black clip. Then connect the ribbon cable to the camera port so the contacts of the cable are touching the contacts of the Pi port:
 >> 
->> <p align="center"> <img src="images/Ribbon_cable_into_pi.png" alt="Ribbon cable to Pi" width="400"/> <img src="images/Ribbon_cable_into_pi_closeup.png" alt="Ribbon Cable to Pi Closeup" width="360" height="450"/> </p>
+>> <p align="center"> <img src="images/Ribbon_cable_into_pi.png" alt="Ribbon cable to Pi" width="400" height="420"/> <img src="images/Ribbon_cable_into_pi_closeup.png" alt="Ribbon Cable to Pi Closeup" width="350" height="420"/> </p>
 >>
 >> - Secure the cable in place by pushing on both sides of the port lock.
 >> 
@@ -69,7 +69,7 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> 
 >> - Now pass the other end of the cable through the other side of the case and secure the case using 4 M3x16mm screws:
 >> 
->> <p align="center"> <img src="images/Case_asembly.png" alt="Passing cable through case" width="500"/> <img src="images/Securing_case.png" alt="Securing the case" width="400" height="500"/> </p>
+>> <p align="center"> <img src="images/Case_asembly.png" alt="Passing cable through case" width="400" height="450"/> <img src="images/Securing_case.png" alt="Securing the case" width="350" height="450"/> </p>
 >> 
 >> - Now mount the case to the printer using two M3x12 screws.
 >> 
@@ -77,7 +77,7 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> 
 >> - Lastly, pass the the ribbon cable to the camera enclosure, connect the camera(through the slit in the camera enclosure), and clip the slack of the wire to the arm using the clips printed.
 >> 
->> <p align="center"> <img src="images/joint_mounted_cable_passed_to_cameraCase.png" alt="Passing the cable" width="550"/> <img src="images/connecting_camera.png" alt="Connecting the camera module" width="350" height="450"/> <img src="images/Complete_assembly.png" alt="Complete setup"/> </p>
+>> <p align="center"> <img src="images/joint_mounted_cable_passed_to_cameraCase.png" alt="Passing the cable" width="480" height="450"/> <img src="images/connecting_camera.png" alt="Connecting the camera module" width="320" height="450"/> <img src="images/Complete_assembly.png" alt="Complete setup" width="700"/> </p>
 >> 
 >> #### Some things to keep in mind:
 >>> - If you own a different printer find a case that will mount nicely on it. 
