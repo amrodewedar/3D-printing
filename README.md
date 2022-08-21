@@ -90,7 +90,7 @@ This tutorial is a detailed walkthrough the process of turning your printer into
 >> - First, [download](https://www.raspberrypi.com/software/) and install the Raspberry Pi imager.
 >> - You should see the following after installing the imager and opening it:
 >> 
->> <p align="center"> <img src="images/imager_after_installation.png" alt="Imager installed" width="500"/> </p>
+>> <p align="center"> <img src="images/imager_after_installation.png" alt="Imager installed" width="500"/> </p> 
 >> 
 >> - To burn the OctoPi operating system on the SD-Card:
 >>> + Insert the SD-Card into your laptop.
