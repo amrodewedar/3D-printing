@@ -18,7 +18,7 @@ This tutorial will walk through the process of turning your printer into a wirel
 - Access to your router.
 > #### Everything you will need:
 > 
-> <p align="center"> <img src="images/Everything_Needed.png" alt="Everything you will need" width="750"/> </p>
+> <p align="center"> <img src="images/Everything_Needed.png" alt="Everything you will need" width="800"/> </p>
 >
 ## Steps:
 > ### Step 1 (Print Needed Parts):
