@@ -1,6 +1,6 @@
 <!-- <p align="center"> <img src="images/" alt="" width="" height=""/> </p> -->
 
-# Guide to turning your 3D printer to a wireless printer
+# Guide to turning your 3D printer into a wireless printer
 
 This tutorial is a detailed walkthrough the process of turning your printer into a wireless printer using a Raspberry Pi. This tutorial is for people of all experience levels. You can follow the tutorial regardless if you have the same printer and Raspberry Pi. Just try to have fun and keep it neat!
 
