@@ -130,21 +130,27 @@ This tutorial is a detailed walkthrough the process of turning your printer into
 >>>> 
 >>>> <p align="center"> <img src="images/OctoPi_IP_address.png" alt="Router settings" width=""/> </p>
 >>
->> - Once you connect to OctoPi, you will be prompted to setup OctoPrint. Here are my configurations for the different sections:
+>>
+>> #### Once you connect to OctoPi, you will be prompted to setup OctoPrint. Here are my configurations for the different sections:
+>> 
 >>> **Access Control:**
 >>>> + I used the same username and password I used for the Raspberry Pi.
+>>> 
 >>> **Anonymous Usage Tracking:**
 >>>> + "Enable Anonymous Usage Tracking".
+>>> 
 >>> **Online Connectivity Check:**
 >>>> + "Enable Conectivity Check".
 >>>> + I left the rest the same.
+>>>
 >>> **Plugin Blacklist:**
 >>>> + "Enable Plugin Blacklist Processing"
+>>>> 
 >>> **Default Printer Profile:**
 >>>> + Give the printer a name, that name is to identify the printer that is connected to the OctoPi.
 >>>> + On the "Print bed & build volume" tab, enter the correct dimensions for your printer. For a prusa that would 250mm (X), 210mm (Y), and 210mm (Z).
 >>>> + Everything else was left the same.
->> 
+>
 > ### Step 6 (Additional Actions):
 >> 
 >
