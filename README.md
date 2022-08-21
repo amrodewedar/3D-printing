@@ -101,7 +101,7 @@ This tutorial is a detailed walkthrough the process of turning your printer into
 >> 
 >> - Now select the gear in the bottom right corner to configure the Raspberry Pi.
 >> - If you are comfortable configuring it, feel free to configure accordig to your prefrences. Here are my configurations and why:
->>> + Check "Set hostname", and give it a hostname. The hostname will allow you to search "*hostname*.local" instead of the Pi's IP address (at least in theory, more on that in the next step).
+>>> + Check "Set hostname", and give it a hostname. The hostname will allow you to search "*hostname*.local" instead of the Pi's IP-address (at least in theory, more on that in the next step).
 >>> + Check "Enable SSH" and "Use password authentication". This will enable you to connect to the Raspberry Pi through the internet. SSH is how you can connect to servers, but usually it's done in the background so you don't have to worry about it.
 >>> + Check "Set username and password", and set the username and password. This is the same as having a username and password on your Windows or Mac computer.
 >>> + Check "Configure wireless LAN" and enter your network's name and password. This will allow the Pi to connect to your router wirelessly. Make sure you enter those information correctly because changing them is somewhat of a hassle, it is easier to just overwrite the SD-Card and re-install the OS in order to change the network settings.
@@ -130,7 +130,21 @@ This tutorial is a detailed walkthrough the process of turning your printer into
 >>>> 
 >>>> <p align="center"> <img src="images/OctoPi_IP_address.png" alt="Router settings" width=""/> </p>
 >>
->>
+>> - Once you connect to OctoPi, you will be prompted to setup OctoPrint. Here are my configurations for the different sections:
+>>> **Access Control:**
+>>>> + I used the same username and password I used for the Raspberry Pi.
+>>> **Anonymous Usage Tracking:**
+>>>> + "Enable Anonymous Usage Tracking".
+>>> **Online Connectivity Check:**
+>>>> + "Enable Conectivity Check".
+>>>> + I left the rest the same.
+>>> **Plugin Blacklist:**
+>>>> + "Enable Plugin Blacklist Processing"
+>>> **Default Printer Profile:**
+>>>> + Give the printer a name, that name is to identify the printer that is connected to the OctoPi.
+>>>> + On the "Print bed & build volume" tab, enter the correct dimensions for your printer. For a prusa that would 250mm (X), 210mm (Y), and 210mm (Z).
+>>>> + Everything else was left the same.
+>> 
 > ### Step 6 (Additional Actions):
 >> 
 >
@@ -144,7 +158,7 @@ This tutorial is a detailed walkthrough the process of turning your printer into
 - [USB A/B cable](https://www.amazon.com/gp/product/B000067RMY/ref=crt_ewc_title_oth_3?ie=UTF8&psc=1&smid=ATVPDKIKX0DER)
 - [Box of M3 screws of various lengths](https://www.amazon.com/binifiMux-360pcs-Countersunk-Phillips-Machine/dp/B08N5XDHMW/ref=sr_1_5?crid=3LE01UJH45QOO&keywords=M3+x+16+and+M3+x+12+screws&qid=1660322970&s=industrial&sprefix=m3+x+16+and+m3+x+12+screws%2Cindustrial%2C72&sr=1-5)
 - [Website to download Raspberry Pi Imager](https://www.raspberrypi.com/software/)
-- [Video tutorial of OctoPi and plugins installation](https://www.youtube.com/watch?v=HBd0olxI-No)
+- [Video tutorial of OctoPi and plugins installation](https://youtu.be/HBd0olxI-No?t=381)
 - [Video tutorial of camera and arm installation](https://www.youtube.com/watch?v=iFhVSmMzOLg&t=960s)
 - [Raspberry Pi case model](https://www.thingiverse.com/thing:3004038)
 - [Camera case and arm model](https://www.thingiverse.com/thing:4631375/files)
