@@ -15,7 +15,7 @@ This tutorial is a detailed walkthrough the process of turning your printer into
 - M3 x 12mm/16mm/20mm screws.
 - Computer or laptop.
 - 3D printer (this tutorial uses a Prusa MK3S).
-- Access to your router.
+- Access to your router (may not need to).
 
 > #### Everything you will need:
 > 
