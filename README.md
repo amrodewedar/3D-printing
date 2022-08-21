@@ -106,17 +106,19 @@ This tutorial is a detailed walkthrough the process of turning your printer into
 >>> + Check "Set username and password", and set the username and password. This is the same as having a username and password on your Windows or Mac computer.
 >>> + Check "Configure wireless LAN" and enter your network's name and password. This will allow the Pi to connect to your router wirelessly. Make sure you enter those information correctly because changing them is somewhat of a hassle, it is easier to just overwrite the SD-Card and re-install the OS in order to change the network settings.
 >>> + Lastly set "Wireless LAN country" accordingly.
->> - Here is a summary of my selected settings:
+>> - Here is a summary example of the selected configurations:
 >> 
 >> <p align="center"> <img src="images/Advanced_Options1.png" alt="Configurations 1" width="375"/> <img src="images/Advanced_Options2.png" alt="Configurations 2" width="375"/> </p>
 >> 
->>
-> ### Step 4 (Install OctoPi Operating System on the Micro SD-Card):
->> blah long step
-> ### Step 5 (Connect to OctoPi and Setup):
->> blah blah 
-> ### Step 6 (Add Plugins):
->> blah blah
+>> - Now click "Save" and "Write" to the SD-Card.
+>> - Follow the instructions for installation, extract the SD-Card, and insert it into the mounted Raspberry Pi. Be careful when inserting the SD-Card, make sure it's going in the correct direction, and is going into the SD-Card slot. You shouldn't have to force it in.
+>> 
+>> <p align="center"> <img src="images/plugin_sd.png" alt="Plugging in SD-Card" width="450" height="450"/> </p>
+>> 
+> ### Step 5 (Connecting to OctoPi and Setup):
+>> 
+> ### Step 6 (Additional Actions):
+>> 
 >
 >
 
