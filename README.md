@@ -6,7 +6,7 @@ This tutorial is a detailed walkthrough the process of turning your printer into
 
 ### What you will need:
 
-#### Links can be found in the resources section at the end of the article
+#### Links for the various parts can be found in the resources section at the end of the article
 
 - Raspberry Pi model 3B(you can use other versions of the Raspberry Pi with modifications for the case).
 - 32 or 64 GB Micro SD-Card (this tutorial uses 64 GB).
