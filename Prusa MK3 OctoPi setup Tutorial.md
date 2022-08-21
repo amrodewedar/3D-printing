@@ -16,7 +16,8 @@ This tutorial will walk through the process of turning your printer into a wirel
 - Access to your router.
 > #### Everything you will need:
 > 
-> <img src="images/Everything_Needed.png" alt="Everything you will need" width="750"/>
+> <p align="center"> <img src="images/Everything_Needed.png" alt="Everything you will need" width="750"/> </p>
+>
 ## Steps:
 > ### Step 1 (Print Needed Parts):
 >> - [Download](https://github.com/amrodewedar/3D-printing/blob/main/OctoPi_Full.3mf) the file for the Raspberry Pi enclosure, camera enclosure, and camera arm.<br/>
@@ -24,44 +25,49 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> - Slice and print the parts according to your prefrences (links in the resources section contain the thingiverse 3D design model parts).
 >> - Depending on your camera position prefrence, you might want to print more links. With 5 links, the camera can be positioned in-front of the print bed. Keep in mind the more links you print the shakier the camera will be.
 >> 
->> <img src="images/All_parts_to_print.png" alt="Parts to print" width="750"/>
+>> <p align="center"> <img src="images/All_parts_to_print.png" alt="Parts to print" width="750"/> </p>
 >>
 >> .
 > ### Step 2 (Arm & Camera Mount Assembly):
 >> - Start by assembling the joints together using nuts and M3x20mm screws.
 >> - The joints have designated holes for the screws and nuts, so make sure you are inserting them in the correct holes.
 >> 
->> ![Linking the joints](images/Joints_screws_with_circles.png)
+>> <p align="center"> <img src="images/Joints_screws_with_circles.png" alt="Linking the joints" width="600"><p/>
 >>
 >> - Next connect the arm mount to the rest of the links as such:
 >> 
->> <img src="images/Joints_and_arm_mount_close_up.png" alt="Arm with mount connected" width="700"/>
+>> <p align="center"> <img src="images/Joints_and_arm_mount_close_up.png" alt="Arm with mount connected" width="700"/> </p>
 >> 
 >> - Ensure that the last link (the one that will hold the camera enclosure) has the flat side up as shown in the picture above.
 >> - Now connect the camera enclosure holder and camera enclosure to the rest of the assembly.
 >> 
->> <img src="images/Joints_camera_and_arm_mount.png" alt="Joints with mount and camera enclosure" width="700" height="700"/>
+>> <p align="center"> <img src="images/Joints_camera_and_arm_mount.png" alt="Joints with mount and camera enclosure" width="700" height="650"/> </p>
 >> 
 >> - The camera enclosure holder also has a nut hole but it is more difficult to place the nut in there, I used the hex-key that comes with the Prusa printer to put the nut in place. Also for the camera enclosure you can use a M3x16mm screw or ideally a M3x14mm screw.
 >> - Now you can mount the arm to the Z-axis motor of the printer using a M3x20mm screw:
 >> 
->> ![Mount to Z-axis](images/jont_mount_screw.png) 
+>> <p align="center"> <img src="images/jont_mount_screw.png" alt="Mount to Z-axis"/> </p> 
 >>
 >> Lastly zip-tie the Z-axis motor cable to the mount as such(disregard the ribbon cable for now): 
 >> 
->> ![Zip-tie the cable](images/joint_mounted_ziptie_circled.png)
+>> <p align="center"> <img src="images/joint_mounted_ziptie_circled.png" alt="Zip-tie the cable.png"/> </p>
 >>
 > ### Step 3 (Raspberry Pi Assembly & Mount):
 >> - First, place the heatsinks on the Processor and the LAN chips: 
 >> 
->> ![heatsinks placement](images/Heat_Sinks_on_Pi.png)
+>> <p align="center"> <img src="images/Heat_Sinks_on_Pi.png" alt="heatsinks placement"/> </p>
 >> 
 >> - Place Pi in Case, releae the cable lock on the camera port by gently pulling on both sides of the black clip. Then connect the ribbon cable to the camera port so the contacts of the cable are touching the contacts of the Pi port:
 >> 
->> ![Ribbon cable to Pi](images/Ribbon_cable_into_pi.png) <img src="images/Ribbon_cable_into_pi_closeup.png" alt="Ribbon Cable to Pi Closeup" width="450" height="480"/> 
+>> <p align="center"> <img src="images/Ribbon_cable_into_pi.png" alt="Ribbon cable to Pi"/> <img src="images/Ribbon_cable_into_pi_closeup.png" alt="Ribbon Cable to Pi Closeup" width="450" height="480"/> </p>
 >>
 >> - Secure the cable in place by pushing on both sides of the port lock.
 >> 
+>> <p align="center"> <img src="images/Ribbon_cable_into_pi_clickin_circles.png" alt="Securing the cable"/> </p>
+>> 
+>> - Now pass the other end of the cable through the other side of the case and secure the case using 4 M3x16mm screws:
+>> 
+>> <p align="center"> <img src="images/Case_assembly.png" alt="Passing cable through case"/> <img src="images/Case_assembly_with_cable_passing.png" alt="Securing the case"/> </p>
 >>
 > ### Step 4 (Installing Raspberry Pi Imager):
 >> First, [download](https://www.raspberrypi.com/software/) and install the Raspberry Pi imager.
