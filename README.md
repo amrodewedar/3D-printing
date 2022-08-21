@@ -2,11 +2,11 @@
 
 # Guide to turning your 3D printer into a wireless printer
 
-This tutorial is a detailed walkthrough the process of turning your printer into a wireless printer using a Raspberry Pi. This tutorial is for people of all experience levels. You can follow the tutorial regardless if you have the same printer and Raspberry Pi. Just try to have fun and keep it neat!
+This is a detailed walkthrough of the process of turning your 3D-printer into a wireless 3D-printer using a Raspberry Pi. This tutorial is for people of all experience levels. You can follow the tutorial regardless if you have the same printer and Raspberry Pi. Just try to have fun and keep everything neat.
 
 ### What you will need:
 
-#### Links for the various parts can be found in the resources section at the end of the article
+#### *Links for the needed parts, as well as other resources, can be found in the resources section at the end of the article*
 
 - Raspberry Pi model 3B(you can use other versions of the Raspberry Pi with modifications for the case).
 - 32 or 64 GB Micro SD-Card (this tutorial uses 64 GB).
