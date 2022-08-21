@@ -35,12 +35,12 @@ This tutorial will walk through the process of turning your printer into a wirel
 >>
 >> - Next connect the arm mount to the rest of the links as such:
 >> 
->> ![Arm with mount connected](images/Joints_and_arm_mount_close_up.png)
+>> <img src="images/Joints_and_arm_mount_close_up.png" alt="Arm with mount connected" width="700"/>
 >> 
 >> - Ensure that the last link (the one that will hold the camera enclosure) has the flat side up as shown in the picture above.
 >> - Now connect the camera enclosure holder and camera enclosure to the rest of the assembly.
 >> 
->> ![Joins with mount and camera enclosure](images/Joints_camera_and_arm_mount.png)
+>> <img src="images/Joints_camera_and_arm_mount.png" alt="Joints with mount and camera enclosure" width="700" height="700"/>
 >> 
 >> - The camera enclosure holder also has a nut hole but it is more difficult to place the nut in there, I used the hex-key that comes with the Prusa printer to put the nut in place. Also for the camera enclosure you can use a M3x16mm screw or ideally a M3x14mm screw.
 >> - Now you can mount the arm to the Z-axis motor of the printer using a M3x20mm screw:
@@ -56,9 +56,12 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> 
 >> ![heatsinks placement](images/Heat_Sinks_on_Pi.png)
 >> 
->> - Place Pi in Case, and connect the ribbon cable to the camera port so the contacts of the cable are touching the contacts of the Pi port:
+>> - Place Pi in Case, releae the cable lock on the camera port by gently pulling on both sides of the black clip. Then connect the ribbon cable to the camera port so the contacts of the cable are touching the contacts of the Pi port:
 >> 
->> ![Ribbon cable to Pi](images/Ribbon_cable_into_pi.png) <img src="images/Ribbon_cable_into_pi_closeup.png" alt="Ribbon Cable to Pi Closeup" width="500"/> 
+>> ![Ribbon cable to Pi](images/Ribbon_cable_into_pi.png) <img src="images/Ribbon_cable_into_pi_closeup.png" alt="Ribbon Cable to Pi Closeup" width="450" height="480"/> 
+>>
+>> - Secure the cable in place by pushing on both sides of the port lock.
+>> 
 >>
 > ### Step 4 (Installing Raspberry Pi Imager):
 >> First, [download](https://www.raspberrypi.com/software/) and install the Raspberry Pi imager.
