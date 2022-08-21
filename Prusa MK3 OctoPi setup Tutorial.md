@@ -1,3 +1,5 @@
+<!-- <p align="center"> <img src="images/" alt="" width="" height=""/> </p> -->
+
 # Guide to turning your 3D printer to a wireless printer
 
 This tutorial will walk through the process of turning your printer into a wireless printer using a Raspberry Pi. This tutiral is for people of all knowledge levels. You can follow the tutorial regardless if you have the same printer and Raspberry Pi. Just try to have fun and keep it neat!
@@ -73,10 +75,15 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> 
 >> <p align="center"> <img src="images/PiCase_mount_closeup.png" alt="Mounting Pi Case" width="550" height="680"/> </p>
 >> 
+>> - Lastly, pass the the ribbon cable to the camera enclosure, connect the camera(through the slit in the camera enclosure), and clip the slack of the wire to the arm using the clips printed.
 >> 
+>> <p align="center"> <img src="images/joint_mounted_cable_passed_to_cameraCase.png" alt="Passing the cable" width="550"/> <img src="images/connecting_camera.png" alt="Connecting the camera module" width="350" height="450"/> <img src="images/Complete_assembly.png" alt="Complete setup"/> </p>
 >> 
->> 
->>
+>> #### Some things to keep in mind:
+>>> - If you own a different printer find a case that will mount nicely on it. 
+>>> - You could pass the ribbon cable through the Prusa Ensiy compartment (the metal compartment near the Z-axis motor). But be careful as you could short the Ensiy board if you use a metal probe to fish the ribbon cable at the other side. I reccomend using a piece of filament.
+>>> - If you have a different camera module or you are using a usb camera, plan for that and try to find or design the appropriate parts.
+>>> 
 > ### Step 4 (Installing Raspberry Pi Imager):
 >> First, [download](https://www.raspberrypi.com/software/) and install the Raspberry Pi imager.
 >> You should see the following after installing the imager and opening it:
