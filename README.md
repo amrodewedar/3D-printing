@@ -2,9 +2,9 @@
 
 # Guide to turning your 3D printer to a wireless printer
 
-This tutorial will walk through the process of turning your printer into a wireless printer using a Raspberry Pi. This tutiral is for people of all knowledge levels. You can follow the tutorial regardless if you have the same printer and Raspberry Pi. Just try to have fun and keep it neat!
+This tutorial is a detailed walkthrough the process of turning your printer into a wireless printer using a Raspberry Pi. This tutorial is for people of all experience levels. You can follow the tutorial regardless if you have the same printer and Raspberry Pi. Just try to have fun and keep it neat!
 
-### Technical Requirements:
+### What you will need:
 
 #### Links can be found in the resources section at the end of the article
 
@@ -16,6 +16,7 @@ This tutorial will walk through the process of turning your printer into a wirel
 - Computer or laptop.
 - 3D printer (this tutorial uses a Prusa MK3S).
 - Access to your router.
+
 > #### Everything you will need:
 > 
 > <p align="center"> <img src="images/Everything_Needed.png" alt="Everything you will need" width="750"/> </p>
@@ -55,6 +56,11 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> <p align="center"> <img src="images/joint_mounted_ziptie_circled.png" alt="Zip-tie the cable.png"/> </p>
 >>
 > ### Step 3 (Raspberry Pi Assembly & Mount):
+>>> #### Some things to keep in mind:
+>>>> <p> - If you own a different printer find a case that will mount nicely on it. </p>
+>>>> <p> - You could pass the ribbon cable through the Prusa Ensiy compartment (the metal compartment near the Z-axis motor). But be careful as you could short the Ensiy board if you use a metal probe to fish the ribbon cable at the other side. I reccomend using a piece of filament. </p>
+>>>> <p> - If you have a different camera module or you are using a usb camera, plan for that and try to find or design the appropriate parts. </p>
+>>
 >> - First, place the heatsinks on the Processor and the LAN chips: 
 >> 
 >> <p align="center"> <img src="images/Heat_Sinks_on_Pi.png" alt="heatsinks placement"/> </p>
@@ -77,20 +83,21 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> 
 >> - Lastly, pass the the ribbon cable to the camera enclosure, connect the camera(through the slit in the camera enclosure), and clip the slack of the wire to the arm using the clips printed.
 >> 
->> <p align="center"> <img src="images/joint_mounted_cable_passed_to_cameraCase.png" alt="Passing the cable" width="480" height="450"/> <img src="images/connecting_camera.png" alt="Connecting the camera module" width="320" height="450"/> <img src="images/Complete_assembly.png" alt="Complete setup" width="700"/> </p>
+>> <p align="center"> <img src="images/joint_mounted_cable_passed_to_cameraCase.png" alt="Passing the cable" width="480" height="450"/> <img src="images/connecting_camera.png" alt="Connecting the camera module" width="320" height="450"/>  </p>
+>> <p align="center"> <img src="images/Complete_assembly.png" alt="Complete setup" width="750"/> </p>
 >> 
->> #### Some things to keep in mind:
->>> - If you own a different printer find a case that will mount nicely on it. 
->>> - You could pass the ribbon cable through the Prusa Ensiy compartment (the metal compartment near the Z-axis motor). But be careful as you could short the Ensiy board if you use a metal probe to fish the ribbon cable at the other side. I reccomend using a piece of filament.
->>> - If you have a different camera module or you are using a usb camera, plan for that and try to find or design the appropriate parts.
->>> 
-> ### Step 4 (Installing Raspberry Pi Imager):
->> First, [download](https://www.raspberrypi.com/software/) and install the Raspberry Pi imager.
->> You should see the following after installing the imager and opening it:
+> ### Step 4 (Installing & Configuring OctoPi):
+>> - First, [download](https://www.raspberrypi.com/software/) and install the Raspberry Pi imager.
+>> - You should see the following after installing the imager and opening it:
 >> 
->> ![imager installed](images/imager_after_installation.png)
+>> <p align="center"> <img src="images/imager_after_installation.png" alt="Imager installed" width="500"/> </p>
 >> 
->> .
+>> - To burn the OctoPi operating system on the SD-Card:
+>>> + Insert the SD-Card into your laptop.
+>>> + For Operating System: CHOOSE OS -> Other specific-purpose OS -> 3D printing -> OctoPi -> OctoPi (stable)
+>>> + For storage: CHOOSE STORAGE -> *select your SD-Card*
+>> - You should see something simlair after you are done:
+>> <p align="center"> <img src="images/Ready_to_write.png" alt="OS & Storage selected" width="500"/> </p>
 >> 
 > ### Step 4 (Install OctoPi Operating System on the Micro SD-Card):
 >> blah long step
