@@ -99,6 +99,18 @@ This tutorial is a detailed walkthrough the process of turning your printer into
 >> - You should see something simlair after you are done:
 >> <p align="center"> <img src="images/Ready_to_write.png" alt="OS & Storage selected" width="500"/> </p>
 >> 
+>> - Now select the gear in the bottom right corner to configure the Raspberry Pi.
+>> - If you are comfortable configuring it, feel free to configure accordig to your prefrences. Here are my configurations and why:
+>>> + Check "Set hostname", and give it a hostname. The hostname will allow you to search "*hostname*.local" instead of the Pi's IP address (at least in theory, more on that in the next step).
+>>> + Check "Enable SSH" and "Use password authentication". This will enable you to connect to the Raspberry Pi through the internet. SSH is how you can connect to servers, but usually it's done in the background so you don't have to worry about it.
+>>> + Check "Set username and password", and set the username and password. This is the same as having a username and password on your Windows or Mac computer.
+>>> + Check "Configure wireless LAN" and enter your network's name and password. This will allow the Pi to connect to your router wirelessly. Make sure you enter those information correctly because changing them is somewhat of a hassle, it is easier to just overwrite the SD-Card and re-install the OS in order to change the network settings.
+>>> + Lastly set "Wireless LAN country" accordingly.
+>> - Here is a summary of my selected settings:
+>> 
+>> <p align="center"> <img src="images/Advanced_Options1.png" alt="Configurations 1" width="375"/> <img src="images/Advanced_Options2.png" alt="Configurations 2" width="375"/> </p>
+>> 
+>>
 > ### Step 4 (Install OctoPi Operating System on the Micro SD-Card):
 >> blah long step
 > ### Step 5 (Connect to OctoPi and Setup):
