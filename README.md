@@ -108,7 +108,7 @@ This tutorial is a detailed walkthrough the process of turning your printer into
 >>> + Lastly set "Wireless LAN country" accordingly.
 >> - Here is a summary of my selected settings:
 >> 
->> <p align="center"> <img src="images/" alt="Configurations 1" width="375"/> <img src="images/" alt="Configurations 2" width="375"/> </p>
+>> <p align="center"> <img src="images/Advanced_Options1.png" alt="Configurations 1" width="375"/> <img src="images/Advanced_Options2.png" alt="Configurations 2" width="375"/> </p>
 >> 
 >>
 > ### Step 4 (Install OctoPi Operating System on the Micro SD-Card):
