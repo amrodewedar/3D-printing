@@ -67,7 +67,15 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> 
 >> - Now pass the other end of the cable through the other side of the case and secure the case using 4 M3x16mm screws:
 >> 
->> <p align="center"> <img src="images/Case_assembly.png" alt="Passing cable through case"/> <img src="images/Case_assembly_with_cable_passing.png" alt="Securing the case"/> </p>
+>> <p align="center"> <img src="images/Case_asembly.png" alt="Passing cable through case" width="500"/> <img src="images/Securing_case.png" alt="Securing the case" width="400" height="500"/> </p>
+>> 
+>> - Now mount the case to the printer using two M3x12 screws.
+>> 
+>> <p align="center"> <img src="images/PiCase_mount_closeup.png" alt="Mounting Pi Case" width="550" height="680"/> </p>
+>> 
+>> 
+>> 
+>> 
 >>
 > ### Step 4 (Installing Raspberry Pi Imager):
 >> First, [download](https://www.raspberrypi.com/software/) and install the Raspberry Pi imager.
