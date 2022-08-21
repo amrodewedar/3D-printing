@@ -83,7 +83,7 @@ This tutorial is a detailed walkthrough the process of turning your printer into
 >> 
 >> - Lastly, pass the the ribbon cable to the camera enclosure, connect the camera(through the slit in the camera enclosure), and clip the slack of the wire to the arm using the clips printed.
 >> 
->> <p align="center"> <img src="images/joint_mounted_cable_passed_to_cameraCase.png" alt="Passing the cable" width="480" height="450"/> <img src="images/connecting_camera.png" alt="Connecting the camera module" width="320" height="450"/>  </p>
+>> <p align="center"> <img src="images/joint_mounted_cable_passed_to_cameraCase.png" alt="Passing the cable" width="450" height="450"/> <img src="images/connecting_camera.png" alt="Connecting the camera module" width="300" height="400"/>  </p>
 >> <p align="center"> <img src="images/Complete_assembly.png" alt="Complete setup" width="750"/> </p>
 >> 
 > ### Step 4 (Installing & Configuring OctoPi):
