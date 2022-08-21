@@ -61,7 +61,7 @@ This tutorial will walk through the process of turning your printer into a wirel
 >> 
 >> - Place Pi in Case, releae the cable lock on the camera port by gently pulling on both sides of the black clip. Then connect the ribbon cable to the camera port so the contacts of the cable are touching the contacts of the Pi port:
 >> 
->> <p align="center"> <img src="images/Ribbon_cable_into_pi.png" alt="Ribbon cable to Pi" width="420"/> <img src="images/Ribbon_cable_into_pi_closeup.png" alt="Ribbon Cable to Pi Closeup" width="380" height="450"/> </p>
+>> <p align="center"> <img src="images/Ribbon_cable_into_pi.png" alt="Ribbon cable to Pi" width="400"/> <img src="images/Ribbon_cable_into_pi_closeup.png" alt="Ribbon Cable to Pi Closeup" width="380" height="450"/> </p>
 >>
 >> - Secure the cable in place by pushing on both sides of the port lock.
 >> 
