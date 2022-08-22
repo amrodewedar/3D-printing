@@ -1,5 +1,3 @@
-<!-- <p align="center"> <img src="images/" alt="" width="" height=""/> </p> -->
-
 # Guide to turning your 3D printer into a wireless printer
 
 This is a detailed walkthrough of the process of turning your 3D-printer into a wireless 3D-printer using a Raspberry Pi. This tutorial is for people of all experience levels. You can follow the tutorial regardless if you have the same printer and Raspberry Pi. Just try to have fun and keep everything neat.
@@ -81,10 +79,15 @@ This is a detailed walkthrough of the process of turning your 3D-printer into a 
 >> 
 >> <p align="center"> <img src="images/PiCase_mount_closeup.png" alt="Mounting Pi Case" width="550" height="680"/> </p>
 >> 
->> - Lastly, pass the the ribbon cable to the camera enclosure, connect the camera(through the slit in the camera enclosure), and clip the slack of the wire to the arm using the clips printed.
+>> - Now just pass the ribbon cable to the camera enclosure, connect the camera(through the slit in the camera enclosure), and clip the slack of the wire to the arm using the clips printed.
 >> 
 >> <p align="center"> <img src="images/joint_mounted_cable_passed_to_cameraCase.png" alt="Passing the cable" width="450" height="450"/> <img src="images/connecting_camera.png" alt="Connecting the camera module" width="300" height="400"/>  </p>
 >> <p align="center"> <img src="images/Complete_assembly.png" alt="Complete setup" width="750"/> </p>
+>> 
+>> - Lastly, connect the USB cable from the Pi to the printer, and the power cable to the Pi. Make sure the path for the Z-axis is clear and not obstructed by the curling USB cable.
+>> 
+>> <p align="center"> <img src="images/usb_cable.png" alt="USB Cable" width="375" height="450"/> <img src="images/power_cable.png" alt="Power Cable" width="375" height="450"/> </p>
+>>
 >> 
 > ### Step 4 (Installing & Configuring OctoPi):
 >> - First, [download](https://www.raspberrypi.com/software/) and install the Raspberry Pi imager.
@@ -114,7 +117,7 @@ This is a detailed walkthrough of the process of turning your 3D-printer into a 
 >> - Follow the instructions for installation, extract the SD-Card, and insert it into the mounted Raspberry Pi. Be careful when inserting the SD-Card, make sure it's going in the correct direction, and is going into the SD-Card slot. You shouldn't have to force it in.
 >> 
 >> <p align="center"> <img src="images/plugin_sd.png" alt="Plugging in SD-Card" width="450" height="450"/> </p>
->> 
+>>  
 > ### Step 5 (Connecting to OctoPi and Setup):
 >> - There are two options to connect to the Pi.
 >> 
@@ -151,8 +154,8 @@ This is a detailed walkthrough of the process of turning your 3D-printer into a 
 >>>> + On the "Print bed & build volume" tab, enter the correct dimensions for your printer. For a prusa that would 250mm (X), 210mm (Y), and 210mm (Z).
 >>>> + Everything else was left the same.
 >
-> ### Step 6 (Additional Actions):
->> 
+> ### Step 6 (Plugins):
+>> At this point you should be able to send prints to your printer and manage prints without having to walk-up to it. You could also explore many other things you can do with OctoPi. By adding plugins you can expand on what your printer can do. You can monitor prints from anywhere using the *OctoEverywhere* plugin. You can have much better timelapse videos using the *OctoLapse* plugin. And many other functions and add-ons. To explore the plugins library, navigate to your OctoPi interface -> *settings* (the wrench symbol on the top toolbar) -> *Plugin Manager* (under the *OCTOPRINT* section). Below is a list of all the resources used to write this article.
 >
 >
 
